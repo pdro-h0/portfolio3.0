@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { projeto } from "@/models/Projetos";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
@@ -11,7 +12,7 @@ export const InfiniteMovingCards = ({
     pauseOnHover = true,
     className,
 }: {
-    items: any[];
+    items: projeto[];
     direction?: "left" | "right";
     speed?: "fast" | "normal" | "slow";
     pauseOnHover?: boolean;

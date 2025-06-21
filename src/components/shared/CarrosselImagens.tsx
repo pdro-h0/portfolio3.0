@@ -8,7 +8,7 @@ import {
 } from "../ui/carousel"
 
 export interface CarrosselImagensProps {
-	imagens: any[]
+	imagens: string[]
 }
 
 export default function CarrosselImagens(props: CarrosselImagensProps) {

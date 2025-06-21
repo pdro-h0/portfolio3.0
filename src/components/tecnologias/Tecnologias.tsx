@@ -1,7 +1,8 @@
+import { tecnologia } from "@/models/Tecnologias"
 import Image from "next/image"
 
 export interface TecnologiasProps {
-    lista: any[]
+    lista: tecnologia[]
     tamanhoMenor?: boolean
 }
 
@@ -17,7 +18,7 @@ export default function Tecnologias(props: TecnologiasProps) {
 						`}
                     >
                         <Image
-                            src={tecnologia.imagem}
+                            src={tecnologia.imagem!}
                             alt={tecnologia.nome}
                             fill
                             className="object-contain"

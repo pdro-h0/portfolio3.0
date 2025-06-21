@@ -1,8 +1,9 @@
+import { projeto } from "@/models/Projetos"
 import Image from "next/image"
 import Link from "next/link"
 
 export interface ItemProjetoProps {
-    projeto: any
+    projeto: projeto
 }
 
 export default function ItemProjeto(props: ItemProjetoProps) {

@@ -1,8 +1,9 @@
 import TecnologiasTrabalhadas from "./TecnologiasTrabalhadas"
 import MiniCV from "./MiniCV"
+import { tecnologia } from "@/models/Tecnologias"
 
 export interface CurriculoProps {
-	tecnologias: any[]
+	tecnologias: tecnologia[]
 }
 
 export default function Curriculo(props: CurriculoProps) {

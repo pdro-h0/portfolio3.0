@@ -1,4 +1,12 @@
-export const Tecnologias = [
+export interface tecnologia{
+    id: number;
+    nome: string;
+    descricao: string;
+    imagem: string | null;
+    destaque: boolean;
+}
+
+export const Tecnologias:tecnologia[] = [
     {
         id: 1,
         nome: "React.Js",

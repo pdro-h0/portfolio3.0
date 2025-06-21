@@ -1,4 +1,15 @@
-export const Projetos = [
+export interface projeto {
+    id: number;
+    nome: string;
+    descricao: string;
+    imagens: string[];
+    tipo: string;
+    nivel: number;
+    repositorio: string;
+    destaque: boolean;
+}
+
+export const Projetos:projeto[] = [
     {
         id: 1,
         nome: "Sistema de Fila",
@@ -8,7 +19,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/sistema-de-fila-backend",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -20,7 +30,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/sistema-de-pontos-backend",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -32,7 +41,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/tickets-level-up-for-juniors-1",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -44,7 +52,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/back-dev-challenge",
         destaque: false,
-        tecnologias: []
 
     },
     {
@@ -56,7 +63,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/findafriend-api",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -68,7 +74,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/findafriend-frontend",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -80,7 +85,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/trato-tech",
         destaque: false,
-        tecnologias: []
 
     },
     {
@@ -92,7 +96,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/pdro-barber",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -104,7 +107,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/jpg",
         destaque: false,
-        tecnologias: []
 
     },
     {
@@ -116,7 +118,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/onebitflix-front-end",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -128,7 +129,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/onebitflix-back-end",
         destaque: true,
-        tecnologias: []
 
     },
     {
@@ -140,7 +140,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/cachorro",
         destaque: false,
-        tecnologias: []
 
     },
     {
@@ -152,7 +151,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/pearsonhardman-",
         destaque: false,
-        tecnologias: []
 
     },
     {
@@ -164,7 +162,6 @@ export const Projetos = [
         nivel: 2,
         repositorio: "https://github.com/pdro-h0/doctorcare",
         destaque: true,
-        tecnologias: []
 
     },
 ]

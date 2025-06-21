@@ -1,8 +1,9 @@
+import { tecnologia } from "@/models/Tecnologias"
 import Cabecalho from "../shared/Cabecalho"
 import Tecnologias from "../tecnologias/Tecnologias"
 
 export interface PrincipalProps {
-	tecnologias: any[]
+	tecnologias: tecnologia[]
 }
 
 export default function Principal(props: PrincipalProps) {

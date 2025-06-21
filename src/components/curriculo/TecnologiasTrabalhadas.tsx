@@ -1,5 +1,7 @@
+import { tecnologia } from "@/models/Tecnologias"
+
 export interface TecnologiasTrabalhadasProps {
-    lista: any[]
+    lista: tecnologia[]
 }
 
 export default function TecnologiasTrabalhadas(props: TecnologiasTrabalhadasProps) {

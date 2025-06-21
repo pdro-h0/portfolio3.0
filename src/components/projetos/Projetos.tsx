@@ -6,10 +6,11 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from "../ui/carousel"
+import { projeto } from "@/models/Projetos"
 
 export interface ProjetosProps {
 	titulo: string
-	lista: any[]
+	lista: projeto[]
 }
 
 export default function Projetos(props: ProjetosProps) {
